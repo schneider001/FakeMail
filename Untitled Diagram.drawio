@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-06T17:49:19.905Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="A63N7W_fzt084C2koq0Q" version="13.10.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-06T17:54:22.937Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="YHsdS2VmiwUv8SiOjJKK" version="13.10.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="3430" dy="4970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3061" dy="4266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,9 +23,12 @@
           <mxGeometry x="65" y="110" width="10" height="280" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-9" value="dp: Dispatcher" style="verticalAlign=bottom;endArrow=block;entryX=1.224;entryY=0.226;shadow=0;strokeWidth=5;fillColor=#dae8fc;strokeColor=#6c8ebf;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="L4s6R9UhhCUD0O3jiBms-100" edge="1">
-          <mxGeometry x="-0.109" y="-21" relative="1" as="geometry">
+          <mxGeometry x="0.2981" y="-16" relative="1" as="geometry">
             <mxPoint x="240" y="200" as="sourcePoint" />
             <mxPoint x="213.75" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="576" />
+            </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -55,7 +58,7 @@
         </mxCell>
         <mxCell id="L4s6R9UhhCUD0O3jiBms-21" value="dp: Dispatcher" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L4s6R9UhhCUD0O3jiBms-20">
           <mxGeometry x="0.2535" relative="1" as="geometry">
-            <mxPoint x="49.41" y="-15.059999999999999" as="offset" />
+            <mxPoint x="18.569999999999997" y="-14.999999999999998" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="L4s6R9UhhCUD0O3jiBms-22" value="groups.__init__.py" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
@@ -72,7 +75,7 @@
         </mxCell>
         <mxCell id="L4s6R9UhhCUD0O3jiBms-27" value="dp: Dispatcher" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L4s6R9UhhCUD0O3jiBms-26">
           <mxGeometry x="0.2535" relative="1" as="geometry">
-            <mxPoint x="2.5" y="-10" as="offset" />
+            <mxPoint x="15.71" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="L4s6R9UhhCUD0O3jiBms-28" value="users.__init__.py" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
@@ -80,7 +83,7 @@
         </mxCell>
         <mxCell id="L4s6R9UhhCUD0O3jiBms-61" value="А тут уже происходит запуск поллинга&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" edge="1" parent="1" target="L4s6R9UhhCUD0O3jiBms-60">
           <mxGeometry x="-0.5385" y="110" relative="1" as="geometry">
-            <mxPoint x="180.05882352941194" y="600" as="sourcePoint" />
+            <mxPoint x="290.05882352941194" y="600" as="sourcePoint" />
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -150,7 +153,7 @@
           <mxGeometry x="1015" y="200" width="240" height="270" as="geometry" />
         </mxCell>
         <mxCell id="L4s6R9UhhCUD0O3jiBms-60" value="&lt;pre style=&quot;background-color: #0f111a ; color: #c3cee3 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9 0pt&quot;&gt;executor&lt;span style=&quot;color: #89ddff&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #82aaff&quot;&gt;start_polling&lt;/span&gt;&lt;span style=&quot;color: #f78c6c&quot;&gt;(&lt;/span&gt;dp&lt;span style=&quot;color: #89ddff&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #f78c6c&quot;&gt;on_startup&lt;/span&gt;&lt;span style=&quot;color: #89ddff&quot;&gt;=&lt;/span&gt;on_startup&lt;span style=&quot;color: #f78c6c&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=1;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-55" y="730" width="470" height="70" as="geometry" />
+          <mxGeometry x="55" y="730" width="470" height="70" as="geometry" />
         </mxCell>
         <mxCell id="L4s6R9UhhCUD0O3jiBms-63" value="Создание переменной диспатчера" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L4s6R9UhhCUD0O3jiBms-62" target="3nuBFxr9cyL0pnOWT2aG-2">
           <mxGeometry x="-1" y="40" relative="1" as="geometry">
@@ -198,12 +201,12 @@
         <mxCell id="L4s6R9UhhCUD0O3jiBms-72" value="Пример кода" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-188.75" y="155" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="L4s6R9UhhCUD0O3jiBms-74" value="dp: Dispatcher" style="endArrow=classic;html=1;exitX=0.5;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=5;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="L4s6R9UhhCUD0O3jiBms-48">
+        <mxCell id="L4s6R9UhhCUD0O3jiBms-74" value="dp: Dispatcher" style="endArrow=classic;html=1;exitX=1.124;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=5;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="L4s6R9UhhCUD0O3jiBms-48">
           <mxGeometry x="0.0084" y="10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="90" as="sourcePoint" />
             <mxPoint x="1160" y="40" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="840" y="-80" />
+              <mxPoint x="1020" y="-90" />
               <mxPoint x="1135" y="40" />
             </Array>
             <mxPoint x="1" as="offset" />
@@ -222,7 +225,7 @@
           <mxGeometry x="-210" y="360" width="145" height="20" as="geometry" />
         </mxCell>
         <mxCell id="L4s6R9UhhCUD0O3jiBms-99" value="app.py" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="110" y="430" width="140" height="505" as="geometry" />
+          <mxGeometry x="220" y="430" width="140" height="505" as="geometry" />
         </mxCell>
         <mxCell id="L4s6R9UhhCUD0O3jiBms-100" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="L4s6R9UhhCUD0O3jiBms-99">
           <mxGeometry x="65" y="110" width="10" height="160" as="geometry" />
