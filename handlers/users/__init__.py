@@ -1,6 +1,7 @@
 from .help import dp
 from .start import dp
 from .admin import dp
+from .mailing import dp
 
 from .echo import dp
 

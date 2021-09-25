@@ -1,11 +1,10 @@
 from aiogram import types
 from loader import dp
 
-
 @dp.message_handler()
 async def bot_echo(message: types.Message):
     # Получим chat_id и text
-    chat_id = message.from_user.id
+    chat_id = message.chat.id
     text = message.text
 
     # Получим объект бота - вариант 1 (из диспатчера)
