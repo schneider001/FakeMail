@@ -1,0 +1,15 @@
+Index: app.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>async def on_startup(dp):\r\n    import filters\r\n    import middlewares\r\n    filters.setup(dp)\r\n    middlewares.setup(dp)\r\n\r\n    from utils.notify_admins import on_startup_notify\r\n    await on_startup_notify(dp)\r\n\r\n\r\nif __name__ == '__main__':\r\n    from aiogram import executor\r\n    from handlers import dp\r\n\r\n    executor.start_polling(dp, on_startup=on_startup)\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app.py b/app.py
+--- a/app.py	
++++ b/app.py	
+@@ -13,3 +13,4 @@
+     from handlers import dp
+ 
+     executor.start_polling(dp, on_startup=on_startup)
++
